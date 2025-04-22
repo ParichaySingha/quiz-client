@@ -126,7 +126,7 @@ const Login = () => {
           Welcome to
         </Typography>
         <Typography variant="h4" fontWeight={800} color="success.main">
-          Dream Dask
+          Dream Desk
         </Typography>
         <Typography variant="body1" color="textSecondary" gutterBottom>
           An Education that Earns
