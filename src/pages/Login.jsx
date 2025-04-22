@@ -150,7 +150,7 @@ const Login = () => {
             <TextField
               fullWidth
               variant="outlined"
-              placeholder="Enter Mobile Number"
+              placeholder="Enter Mobile Number with +91"
               value={mobileNumber}
               onChange={(e) => setMobileNumber(e.target.value)}
               InputProps={{
