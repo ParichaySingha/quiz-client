@@ -27,7 +27,7 @@ const testOne = [
     // description:
     //   "This section tests your understanding and command of the English language, including grammar, vocabulary, sentence structure, and reading comprehension.",
     sectionDetails: "20 Questions, 5:00 mins",
-    timeLimit: 1,
+    timeLimit: 180,
     questions: [
       {
         id: 1,
@@ -305,7 +305,7 @@ const testOne = [
     //   "This section evaluates your problem-solving and mathematical skills, including algebra, arithmetic, and geometry. Answer the questions within the given time frame.",
     title: "Numerical Ability",
     sectionDetails: "20 Questions, 5:00 mins",
-    timeLimit: 3,
+    timeLimit: 175,
     questions: [
       {
         id: 1,
@@ -536,7 +536,7 @@ const testOne = [
   {
     title: "Closure Ability",
     sectionDetails: "20 Questions, 4:00 mins",
-    timeLimit: 3,
+    timeLimit: 150,
     questions: [
       {
         id: 1,
@@ -743,7 +743,7 @@ const testOne = [
   {
     title: "Spatial Ability",
     sectionDetails: "72 Questions, 10:00 mins",
-    timeLimit: 3,
+    timeLimit: 90,
     questions: [
       {
         id: 1,
@@ -820,7 +820,7 @@ const testOne = [
   {
     title: "Mechanical Ability",
     sectionDetails: "25 Questions, 10:00 mins",
-    timeLimit: 3,
+    timeLimit: 180,
     questions: [
       {
         id: 1,
@@ -897,7 +897,7 @@ const testOne = [
   {
     title: "Clerical Ability",
     sectionDetails: "72 Questions, 10:00 mins",
-    timeLimit: 4,
+    timeLimit: 90,
     questions: [
       {
         id: 1,
@@ -974,7 +974,7 @@ const testOne = [
   {
     title: "Reasoning Ability",
     sectionDetails: "12 Questions, 10:00 mins",
-    timeLimit: 3,
+    timeLimit: 180,
     questions: [
       {
         id: 1,
@@ -1051,7 +1051,7 @@ const testOne = [
   {
     title: "Psychomotor Ability",
     sectionDetails: "70 Questions, 10:00 mins",
-    timeLimit: 3,
+    timeLimit: 190,
     questions: [
       {
         id: 1,
@@ -1128,7 +1128,7 @@ const testOne = [
   {
     title: "Personality",
     sectionDetails: "6 Questions, 3:00 mins",
-    timeLimit: 3,
+    timeLimit: 180,
     questions: [
       {
         id: 1,
@@ -1198,7 +1198,7 @@ const testTwo = [
   {
     title: "Self Motivation",
     sectionDetails: "50 Questions, 20: mins",
-    timeLimit: 30,
+    timeLimit: 180,
     questions: Array.from({ length: 50 }, (_, i) => ({
       id: i + 1,
       label: `Do you set personal goals regularly ? ${i + 1}`,
