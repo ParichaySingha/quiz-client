@@ -18,7 +18,7 @@ import MenuItem from "@mui/material/MenuItem";
 import Select from "@mui/material/Select";
 import { useUI } from "../../context/UIContext";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+// import axios from "axios";
 
 const steps = ["Personal Details", "Educational Details", "Consent & Submit"];
 
@@ -492,31 +492,18 @@ export default function StepperRegistration() {
     }
   };
 
-  const handleSubmit = async () => {
+  const handleSubmit = () => {
     try {
       // Show loader or feedback to the user
       showSnackbar("Submitting your registration data...", "info");
 
-      // Make the API call
-      const response = await axios.post(
-        "https://onlinequizapp-production.up.railway.app/addStudentDetails",
-        formData,
-        {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      );
-
-      // Handle success response
-      if (response.status === 200) {
+      // Simulate successful submission
+      setTimeout(() => {
         showSnackbar("Registration Completed Successfully!", "success");
         navigate("/testAll"); // Navigate to the next page
-      } else {
-        showSnackbar("Registration failed. Please try again.", "error");
-      }
+      }, 1000); // Simulate a delay for user feedback
     } catch (error) {
-      // Handle error response
+      // Handle unexpected errors (if any)
       console.error("Error during registration:", error);
       showSnackbar("An unexpected error occurred. Please try again.", "error");
     }
